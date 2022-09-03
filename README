@@ -1,0 +1,21 @@
+![Banner](.github/images/Banner.png)
+
+# VESC Lights project (WIP)
+
+This project uses of [Arduino Pro Mini](https://docs.arduino.cc/retired/boards/arduino-pro-mini), any alternatives that matches the pinout can be used, to manage front/back ligths and battery percentage
+
+All data used by the arduino, to determine if light should be on high or low, come from a VESC, and they use the pins RX and TX from the VESC to read this informations (if this pins are not availabe, this project till can be used, but without the high/low and battery reads)
+
+## Hardware used
+* Arduino Pro Mini
+* WS2812 Led strips or similars
+* Powerbank (will power the strips)
+* Breakout and main PCB
+* JST-XH Connector (3P, 4P)
+* **(Optional)** XT-30 Connector 
+* **(Optional)** 10 Amp Fuse
+* **(Optional)** Fuse holder 
+
+## Gerber files
+
+All Gerber files can be found in the folder `Gerber`
